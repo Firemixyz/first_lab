@@ -1,11 +1,22 @@
-body {
+body{
+    font-family: Georgia, "Times New Roman",
+    Times, serif;
+color: #384B70;
+background-color: #f7f3de 
+}
+body.main {
     margin-top: 3em;
     padding-left: 2em;
-    font-family: Georgia, "Times New Roman",
-          Times, serif;
-    color: #384B70;
-    background-color: #f7f3de }
 
+}
+h2.group {
+    display: flex;
+    justify-content: center
+}
+div.group{
+    margin-left: 1em;
+
+}
 a{
     text-decoration:none;
 }
@@ -31,4 +42,8 @@ ul{
 .contact:hover{
     color: #384B70;
     transition: all 0.1s ease-in;
+}
+a.group{
+    font-weight: bold;
+    color: #384B70;
 }
