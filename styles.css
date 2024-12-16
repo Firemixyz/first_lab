@@ -1,0 +1,34 @@
+body {
+    margin-top: 3em;
+    padding-left: 2em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: #384B70;
+    background-color: #f7f3de }
+
+a{
+    text-decoration:none;
+}
+a:link{
+    color: #507687
+}
+a:hover{
+    color: #384B70;
+}
+a:visited{
+    color: #507687;
+}
+ul{
+    margin-left: -2em;
+}
+.contact{
+    background-color: #f7f3de;
+    padding: 0.1rem;
+
+    /*border-color: #384B70;*/
+    
+}
+.contact:hover{
+    color: #384B70;
+    transition: all 0.1s ease-in;
+}
